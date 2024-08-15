@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className=' flex justify-between p-6  ' >
+    <div className=' flex justify-between p-6 shadow-2xl  ' >
       <div className=' text-[28px] font-serif  text-[#426B1F]' >
         WALMART
       </div>
