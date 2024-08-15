@@ -3,6 +3,7 @@ import Knowsec from "../Components/LandingComps/Knowsec";
 import Contact from "../Components/LandingComps/Contact";
 import Navbar from "../Components/LandingComps/Navbar";
 import Hero from "../Components/LandingComps/Hero";
+import Footer from "../Components/LandingComps/Footer";
 
 const Landing = () => {
   return (
@@ -24,6 +25,7 @@ const Landing = () => {
           ></iframe>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

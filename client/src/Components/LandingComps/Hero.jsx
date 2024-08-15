@@ -3,10 +3,7 @@ import hero from '../../assets/LandingImages/Designer (3).jpeg'
 
 const Hero = () => {
   return (
-    <div className='h-[500px] mt-8 relative ' >
-      <div className=' h-[500px] w-[95%] mx-auto opacity-80 ' >
-        <img src={hero} alt="" className='w-full h-full object-cover'  />
-      </div>
+    <div className='h-[650px] mt-8 relative ' >
       <div className='w-[100%] h-[100%]  absolute top-0 flex flex-col justify-center gap-6 items-center '>
         <div className='text-[40px] font-serif' >
             <span className='font-serif  text-[#274010]' >WALMART</span> - STORE CONNECT
