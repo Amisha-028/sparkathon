@@ -52,7 +52,7 @@ const Contact = () => {
               setMessage(e.target.value);
             }}
             rows={2}
-            className="border w-full shadow-lg py-4 px-8 rounded-full "
+            className="border no-scl w-full shadow-lg py-4 px-8 rounded-full "
             placeholder="Message"
           />
         </div>
