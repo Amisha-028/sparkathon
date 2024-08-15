@@ -4,6 +4,7 @@ import Contact from "../Components/LandingComps/Contact";
 import Navbar from "../Components/LandingComps/Navbar";
 import Hero from "../Components/LandingComps/Hero";
 import Footer from "../Components/LandingComps/Footer";
+import Testimonial from "../Components/LandingComps/Testimonial";
 
 const Landing = () => {
   return (
@@ -11,6 +12,7 @@ const Landing = () => {
       <Navbar/>
       <Hero />
       <Knowsec />
+      <Testimonial/>
       <div className="flex justify-center gap-4 mt-[50px] mx-auto p-8" >
         <Contact />
         <div className=" rounded-2xl overflow-hidden " >

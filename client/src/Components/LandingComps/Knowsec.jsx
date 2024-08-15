@@ -24,6 +24,22 @@ const quess = [
         question: "What kind of support is available for Walmart Store Connect users?",
         answer: "Walmart Store Connect offers customer support through email, phone, and online resources. Specific support options may vary based on your seller plan."
       },
+      {
+        question: "How do I list my products on Walmart Store Connect?",
+        answer: "To list your products, you'll need to provide detailed product information, including titles, descriptions, images, pricing, and inventory levels."
+      },
+      {
+        question: "What product categories are supported on Walmart Store Connect?",
+        answer: "Walmart Store Connect supports a wide range of product categories. You can find a complete list in the Seller Center."
+      },
+      {
+        question: "How do I manage my product inventory on Walmart Store Connect?",
+        answer: "You can manage your inventory directly through the Walmart Seller Center. You can update quantities, prices, and product details as needed."
+      },
+      {
+        question: "How do I handle returns and refunds through Walmart Store Connect?",
+        answer: "Walmart Store Connect provides guidelines for handling returns and issuing refunds. You can find specific instructions in the Seller Center."
+      },
 ]
 
 const Knowsec = () => {
