@@ -1,12 +1,15 @@
 import './App.css'
 import Langing from './Pages/Langing'
+import DashBoard from './Pages/DashBoard'
+import Landing from './Pages/Langing'
 
 function App() {
 
 
   return (
     <>
-      <Langing/>
+      {/* <Landing/> */}
+      <DashBoard/>
     </>
   )
 }
