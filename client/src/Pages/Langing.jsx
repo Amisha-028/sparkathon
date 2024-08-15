@@ -1,10 +1,12 @@
 import React from "react";
 import Knowsec from "../Components/LandingComps/Knowsec";
 import Contact from "../Components/LandingComps/Contact";
+import Navbar from "../Components/LandingComps/Navbar";
 
 const Landing = () => {
   return (
     <div className="" >
+      <Navbar/>
       <Knowsec />
       <div className="flex justify-center gap-4 mt-[50px] mx-auto p-8" >
         <Contact />
