@@ -4,11 +4,12 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { SiWalmart } from "react-icons/si";
+import WalmartLogo from "../../assets/LandingImages/walmart-logo.webp"
 
 const Footer = () => {
     return (
         <footer className="flex flex-col justify-center items-center bg-[#F8F9FA] pt-[20px] pb-[20px] gap-3" id="footer">
-            <SiWalmart className="text-[150px]" height={10}/>
+            <img src={WalmartLogo} alt="" className=" object-cover h-[100px] w-[400px] mix-blend-darken "/>
             <div className="nav-links p-0">
                 <ul className="flex justify-center items-center">
                     <li className="p-2"><a href="#Hero">Home</a></li>

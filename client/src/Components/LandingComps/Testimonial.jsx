@@ -41,7 +41,7 @@ const Testimonial = () => {
   ];
 
   return (
-    <div className=" my-[150px] ">
+    <div className=" bg-[#F8F9FA] py-[50px]">
       <div className="  flex flex-col items-center justify-center  text-[26px] font-semibold">
         Testimonials
         <div className="border-2 w-[7%] border-gray-600 "></div>

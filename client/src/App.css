@@ -1,3 +1,7 @@
 .no-scl::-webkit-scrollbar {
     display: none;
   }
+
+  .no-resize {
+    resize: none;
+  }

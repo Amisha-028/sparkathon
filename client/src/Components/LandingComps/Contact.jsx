@@ -10,11 +10,11 @@ const Contact = () => {
 
 
   return (
-    <div className="flex flex-col justify-center items-center p-10" id="contact">
+    <div className="flex flex-col justify-center items-center p-10 h-[100%]" id="contact">
       <div className="text-[24px] sm:text-[34px] md:text-[44px] font-bold p-8">
         Get in Touch Now
       </div>
-      <div className=" flex flex-col gap-4 text-[18px] ">
+      <div className=" flex flex-col gap-4 text-[18px] py-2">
         <div className="flex gap-4 flex-wrap">
           <input
             value={name}
@@ -51,14 +51,14 @@ const Contact = () => {
             onChange={(e) => {
               setMessage(e.target.value);
             }}
-            rows={2}
-            className="border no-scl w-full shadow-lg py-4 px-8 rounded-full "
+            rows={4}
+            className="border no-scl no-resize w-full shadow-lg py-8 px-8 rounded-[30px]"
             placeholder="Message"
           />
         </div>
       </div>
       <div className="py-8" >
-      <button className="text-white w-32 h-14 rounded-full font-bold px-6 hidden min-[500px]:block">
+      <button className="text-white w-32 h-14 rounded-full font-bold px-6 bg-blue-700">
         Submit
       </button>
       </div> 
